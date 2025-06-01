@@ -9,7 +9,18 @@ module.exports = {
 
   presets: [require('nativewind/preset')],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins-Regular'],
+        'poppins-medium': ['Poppins-Medium'],
+        'poppins-bold': ['Poppins-Bold'],
+        playfair: ['Playfair-Regular'],
+        'playfair-bold': ['Playfair-Bold'],
+        space: ['SpaceGrotesk-Regular'],
+        'space-bold': ['SpaceGrotesk-Bold'],
+        tagesschrift: ['Tagesschrift'],
+      },
+    },
   },
   plugins: [],
 };

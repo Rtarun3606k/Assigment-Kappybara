@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Note page with subtle shadow -->
+  <rect x="100" y="80" width="300" height="340" rx="10" fill="#ffffff" filter="drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1))" />
+  
+  <!-- Lines on the note page -->
+  <g stroke="#e0e0e0" stroke-width="2">
+    <line x1="130" y1="140" x2="370" y2="140" />
+    <line x1="130" y1="180" x2="370" y2="180" />
+    <line x1="130" y1="220" x2="370" y2="220" />
+    <line x1="130" y1="260" x2="370" y2="260" />
+    <line x1="130" y1="300" x2="370" y2="300" />
+    <line x1="130" y1="340" x2="370" y2="340" />
+    <line x1="130" y1="380" x2="370" y2="380" />
+  </g>
+  
+  <!-- Pencil icon -->
+  <g transform="translate(300, 100) rotate(45)">
+    <rect x="0" y="-10" width="120" height="20" rx="2" fill="#4A90E2" />
+    <polygon points="120,0 100,-10 100,10" fill="#F5A623" />
+    <rect x="-20" y="-10" width="20" height="20" rx="2" fill="#D8D8D8" />
+  </g>
+  
+  <!-- Small decorative elements -->
+  <circle cx="160" cy="100" r="10" fill="#27AE60" />
+  <rect x="130" y="400" width="50" height="10" rx="5" fill="#E74C3C" />
+  <polygon points="380,90 390,110 370,110" fill="#9B59B6" />
+</svg>

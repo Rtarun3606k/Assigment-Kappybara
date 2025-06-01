@@ -12,7 +12,8 @@
       "typedRoutes": true
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-font"
     ],
     "scheme": "my-expo-app",
     "orientation": "portrait",
